@@ -1,8 +1,10 @@
 Public Url to GitHub repository (not private) [URL01]
+https://github.com/Abogazia/udapepole-cicd
 
 
 Public URL for your S3 Bucket (aka, your green candidate front-end) [URL02]
-
+https://udapeople-1378663.s3.amazonaws.com/index.html
 
 Evidence of deployed and functioning Frontend in CloudFront. [URL03]
+https://d2oul03l2q5r69.cloudfront.net
 
