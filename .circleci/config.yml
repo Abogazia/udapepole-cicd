@@ -171,7 +171,7 @@ jobs:
           at: .
       - run:
           name: Check Frontend against security vulnerabilities
-          working_directory: ./frontendxxc
+          working_directory: ./frontend
           command: 
             npm audit fix --force --audit-level=critical
             npm audit fix --force --audit-level=critical
@@ -400,7 +400,7 @@ jobs:
             pip install awscli
       - run:
           name: Backend smoke test.
-          working_directory: ./backend
+          working_directory: ./backendxxc
           command: |
             #BACKEND_IP=$(aws ec2 describe-instances --query 'Reservations[*].Instances[*].PublicIpAddress' --output text)
              #API_URL="http://${BACKEND_IP}:3030"
