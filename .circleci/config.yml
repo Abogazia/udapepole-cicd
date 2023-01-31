@@ -99,7 +99,7 @@ jobs:
           at: .
       - run:
           name: npm run build
-          working_directory: ./backend
+          working_directory: ./backendxxc
           command: npm run build
       - persist_to_workspace:
           root: .
@@ -115,7 +115,7 @@ jobs:
           at: .
       - run:
           name: npm run build
-          working_directory: ./frontend
+          working_directory: ./frontendxxc
           command: npm run build
 
 
