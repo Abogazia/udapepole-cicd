@@ -132,7 +132,7 @@ jobs:
       - run:
           name: Run tests with JUnit as reporter
           working_directory: ./frontend
-          command: 
+          command: fg
           environment:
             JEST_JUNIT_OUTPUT_DIR: ./test_results
       - store_test_results:
